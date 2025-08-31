@@ -31,5 +31,4 @@ const QString BlueBtn {R"(
 
 };  // namespace::css
 
-
 #endif  // MAINCSS_H_

@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 配置cmake搜索Qt安装路径
 # 需根据实际Qt安装路径进行修改
 if(WIN32)
-    set(CMAKE_PREFIX_PATH "C:/Qt/6.9.1/msvc2022_64/")
+    set(CMAKE_PREFIX_PATH "E:/Qt/6.9.1/msvc2022_64/")
 elseif(UNIX AND NOT APPLE)
     set(CMAKE_PREFIX_PATH "$ENV{HOME}/Qt/6.9.1/gcc_64/")
 endif()

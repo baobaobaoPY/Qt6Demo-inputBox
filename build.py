@@ -53,7 +53,7 @@ def target_exeName():
 
     # 移除多余的空白字符和换行符，保留单个空格
     content_clean = re.sub(r'\s+', ' ', content_no_comments);
-    
+
     # 匹配 add_executable(target_name ...);
     match = re.search( \
         r'add_executable\s*\(\s*([^\s\)]+)', \
